@@ -80,6 +80,8 @@
     border-radius: 42px;
     padding: 16px;
     background: rgb(230, 83, 60);
+    margin-right: 10px;
+    margin-top: 10px;
 }
 .btn-secondary{
     font-size: 18px;
@@ -409,6 +411,7 @@ table, th, td {
  .packages{
     max-width: 1040px;
     margin: 0 auto;
+    
     display: flex;
     justify-content: space-between;
     background-color: #262626;
@@ -428,44 +431,101 @@ table, th, td {
  .package-heading{
     font-size: 36px;
     font-weight: 900;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
  }
  .package-sub{
     font-size: 20px;
     font-weight: 600;
-    color:rgba(255, 255, 255, 0.35);  
+    color:rgba(6, 6, 6, );  
  }
  .tick{
     width: 20px;
     height: 20px;
+    color: white;
  }
  .feature-content{
     display: flex;
     gap: 5px;
+    margin: 10px;
     
  }
  .package-btn{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     background-color: black;
     color: white;
     padding: 15px 20px;
     text-align: center;
+    margin: 20px;
 
+ }
+ .package-btn:hover{
+    background-color: #E3FF04;
+    color: black;
  }
 
 #package-bg1{
-    background-color: #3e3c39;
+    background-color: #9d9891;
 }
 #package-bg2{
     background-color: #E3FF04;
+    color: #111111;
 }
 .feature{
-    color: #C4C4C3;
+    color: #030303;
 
 }
-.feature-content{
-    margin: 10px;
+
+/* Footer section style */
+.footer-section{
+    background-color: rgb(34, 34, 34);
+    margin-top: 80px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: 0 auto;
+    gap: 20px;
+    
+}
+.footer-part1{
+    width: 40%;
+}
+.logo-desc{
+    font-size: 14px;
+    margin-top: 70px;
+    color: #9d9891;
+}
+/* .footer-last{
+    max-width: 1040px;
+    margin: 0 auto;
+} */
+.line{
+    max-width: 1040px;
+    border: 1px solid #3e3c39 ;
+}
+.footer-end{
+    max-width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+    color: #9d9891;
+    margin-bottom: -14px;
+    margin-top: 29px;
+    padding-bottom: 30px;
 }
 
-
+.get-started{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.nav-ul{
+    list-style: none;
+    color: #262626;
+    text-align: left;
+}
+#link-color{
+    color: #9d9891;
+}
