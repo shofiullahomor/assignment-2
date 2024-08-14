@@ -239,3 +239,233 @@ position: relative;
     padding: 12px 40px 12px 40px;   
     margin-top: 10px;
 }
+/* calculator section style */
+.calculator-container{
+    margin: 0 auto;
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 0 auto; */
+    max-width: 1940px;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+    
+    
+}
+
+.bmi-calculator{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    width: 1044px;
+    height: 452px;
+    margin: 0 auto;
+   
+}
+
+
+.bmi-heading{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bmi-title, .team-heading{
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    
+}
+.bmi-description, .team-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+    
+}
+.bmi-calculator{
+    background-color: rgb(34, 34, 34);   
+}
+.chart-title{
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+}
+/* table style */
+table{
+    width: 310px;
+    height: 216px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  th{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  th, td {
+    padding: 20px;
+  }
+  /* calculator form style */
+  .form-title{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+  }
+  .form-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /* form style */
+  input, select{
+    width: 100%;
+    padding: 12px;
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .inp-1{
+    display: inline-block;
+    width: 50%;
+  }
+  .inp-one, .inp-two{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+  }
+  .cal-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 42px;
+    padding: 16px;
+    background: rgb(230, 83, 60);
+  }
+  #act{
+    display: inline-block;
+    width: 97%;
+
+    margin: 10px;
+    color: color: rgba(255, 255, 255, 0.5);
+    margin-right: 50px;
+
+  }
+  /* Team section style */
+  .team-heading, .team-description{
+    text-align: center;
+  }
+  .team-header{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+  }
+  /* Team Members style */
+  .team-members{
+    max-width: 1040px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+    gap: 10px;
+  }
+  .team-img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+  }
+  .team-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .members-inf{
+    margin-top: -112px;
+    margin-left: 20px;
+
+  }
+  .team-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(245 245 245 / 35%); 
+  }
+ /* packages related style */
+ .packages{
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 18px;
+    align-content: center;
+    border: 5px solid rgb(245 245 245 / 35%); 
+
+
+ }
+ .package-card{
+    background-color: rgb(35, 41, 46);
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+ }
+ .package-heading{
+    font-size: 36px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+ }
+ .package-sub{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.35);  
+ }
+ .tick{
+    width: 20px;
+    height: 20px;
+ }
+ .feature-content{
+    display: flex;
+    gap: 5px;
+    
+ }
+ .package-btn{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+
+ }
+
+#package-bg1{
+    background-color: #3e3c39;
+}
+#package-bg2{
+    background-color: #E3FF04;
+}
+.feature{
+    color: #C4C4C3;
+
+}
+.feature-content{
+    margin: 10px;
+}
+
+
