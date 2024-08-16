@@ -16,7 +16,7 @@
  }
  /* header style */
  .brand{
-    font-weight: 600;
+    font-weight: 800;
     font-size: 36px;
     color: #E6533C;
     font-style: italic;
@@ -29,7 +29,9 @@
 }
 
  .navbar{}
-
+.menu-icon{
+    display: none;
+}
  .nav-links{
     list-style: none;
     display: flex;
@@ -208,8 +210,8 @@ position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1060px;
-    height: 371px;
+    max-width: 1060px;
+    /* height: 371px; */
     margin-top: 100px;
     color: #fff;
     border-radius: 18px;
@@ -258,8 +260,8 @@ position: relative;
     display: flex;
     justify-content: space-between;
     gap: 100px;
-    width: 1044px;
-    height: 452px;
+    max-width: 1044px;
+    /* height: 452px; */
     margin: 0 auto;
    
 }
@@ -330,11 +332,11 @@ table, th, td {
   /* form style */
   input, select{
     width: 100%;
-    padding: 12px;
-    /* border: 1px solid #ccc; */
+    padding: 15px;
+    
     border-radius: 8px;
     box-sizing: border-box;
-    resize: vertical;
+    font-size:20px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
   }
@@ -490,7 +492,7 @@ table, th, td {
     
 }
 .footer-part1{
-    width: 40%;
+    width: 30%;
 }
 .logo-desc{
     font-size: 14px;
@@ -528,4 +530,163 @@ table, th, td {
 }
 #link-color{
     color: #9d9891;
+}
+
+
+/* media screen start */
+@media screen and (max-width: 576px) {
+    .nav-link{
+        display: none;
+
+    }
+    .nav-links{
+        background-image: url(/images/menu-icon.png);
+        background-repeat: no-repeat;
+        width: 10px;
+        height: 20px;
+    }
+    .menu-icon{
+        display: inline-block;
+        float: right;
+        /* margin-right: -833px; */
+        margin-top: -70px;
+    }
+    .banner{
+       flex-direction: column;
+        /* gap: 54px; */
+    
+    }
+    .content-title {
+        
+        font-size: 36px;
+        margin-left: 20px;
+    }
+    .content-description{
+        width: 274px;
+        height: 96px;
+        margin-left: 20px;
+    }
+    .img-section{
+        width: 353px;
+        height: 588px;
+    }
+    .card{
+        
+            padding-top: 5px;
+            top: -392px;
+            left: 219px;
+            width: 106px;
+            height: 60px;
+    }
+    .card-title-2{
+        font-size: 20px;
+    }
+    .card-sub-title{
+        font-size: 10px;
+
+    }
+    .ball{
+        width: 25px;
+        height: 25px;
+    }
+    .card-1{
+        width: 144px;
+        height: 62px;
+        left: -19px;
+    }
+    .habit-title{
+        font-size: 32px;
+    }
+    .habit{
+        flex-direction: column;
+    }
+    .join-section{
+        flex-direction: column;
+        padding-bottom: 37px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .card-description, .habit-description{
+        width: 338px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .bmi-heading{
+        width: 355px;
+        
+        margin-left:20px;
+        
+    }
+    .btn-primary, .join-btn{
+        margin-left:20px;
+    }
+    .bmi-calculator{
+        flex-direction: column;
+    }
+    .bmi-chart{
+        margin-left:20px;
+    }
+    .form-description{
+
+    }
+    .bmi-form{
+        width: 450px;
+        margin-left:20px
+    }
+    .call-btn{
+        padding: 16px 40px;
+        border-radius: 20px;
+        
+        width: 224px;
+        height: 54px;
+        
+    }
+    .team-header{
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 400px;
+        margin-bottom: 100px;
+    }
+    .team-members{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .team-member{
+        text-align: center;
+    }
+    .packages{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .package-card{
+        width: 80%;
+        text-align: center;
+    }
+    .footer-div{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-part1{
+        width: 80%;
+    }
+    .footer-part2{
+        width: 80%;
+    }
+    .nav-footer{
+        display: block;
+    }
+    .logo-desc{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+.hide{
+    display: none;
 }
