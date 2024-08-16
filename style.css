@@ -660,10 +660,11 @@ table, th, td {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        /* max-width: 575px; */
 
     }
     .package-card{
-        width: 80%;
+        width: 60%;
         text-align: center;
     }
     .footer-div{
